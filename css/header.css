@@ -1,0 +1,27 @@
+.header{height: 70px;width: 100%;background: url("../images/nav-bj.png");font-family: "Microsoft YaHei";
+    font-size: 14px;min-width: 1250px}
+.header_logo{left: 20px;position: relative}
+.header_logo img{position: absolute;z-index: 999}
+.header_right{line-height: 70px;height: 70px}
+.header_right_L{line-height: 70px;height: 70px}
+.header_right_L ul li{float: left;text-align: center;padding-top: 25px;}
+.header_right_L ul li div{height: 20px;width: 100px;overflow: hidden}
+.header_right_L ul li div p{color: white;line-height: 20px}
+.header_right_L ul li div span{display: block;color: #a9a9a9;line-height: 20px}
+.header_right_L ul li .header_now div p{margin-top: -20px}
+.header_right_L ul li div:hover p{margin-top: -20px;transition: margin-top .3s ease 0s}
+.header_right_R ul li{float: left;margin-top: 19px;height: 30px;width: 41px;overflow: hidden;
+    animation: nav_right1 .8s normal 1 both;}
+.header_right_R ul li a span{float: left;color: #a9a9a9;display: none;
+height: 30px;line-height: 30px}
+.header_right_R ul li a img{float: left;margin-right: 8px}
+.header_right_R ul li:hover{background: url("../images/tel-bj.png") no-repeat;margin-right: 0;
+    animation: nav_right .8s alternate 1 both;}
+.header_right_R ul li:hover a span{display: inline-block;}
+@keyframes nav_right {
+    0%{width: 30px;margin-right: 11px}
+    50%{width: 34px;margin-right: 11px}
+    100%{width: 176px;margin-right: 11px}
+}
+
+

@@ -1,0 +1,625 @@
+/*banner start*/
+#wrap {
+    width: 100%;
+}
+
+.banner_wrap {
+    height: 586px;
+    position: relative;
+    overflow: hidden;
+    background: white
+}
+
+.banner_wrap ul li {
+    width: 100%;
+    height: 586px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner_wrap ul li img {
+    position: absolute;
+    left: 50%;
+    display: none
+}
+
+.banner_wrap .prevNext {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 225px
+}
+
+.banner_wrap .prevNext span {
+    height: 100px;
+    width: 50px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 50px;
+    float: left;
+    background: gainsboro;
+    cursor: pointer;
+    opacity: 0.2;
+    color: white
+}
+
+.banner_wrap:hover .prevNext span {
+    opacity: 0.6
+}
+
+.banner_wrap .prevNext_nav {
+    height: 16px;
+    width: 212px;
+    position: absolute;
+    left: 50%;
+    margin-left: -106px;
+    top: 460px
+}
+
+.banner_wrap .prevNext_nav .prevNext_nav_now {
+    background: #00bcff
+}
+
+.banner_wrap .prevNext_nav div {
+    float: left;
+    height: 16px;
+    width: 48px;
+    margin-right: 6px;
+    cursor: pointer
+}
+
+.banner_wrap .prevNext_nav span {
+    float: left;
+    width: 48px;
+    height: 2px;
+    background: lightgrey;
+    transition: all .5s ease 0s
+}
+
+.banner_wrap .prevNext_nav div:hover span {
+    background: #00bcff;
+    transition: all .5s ease 0s
+}
+
+.next_part1 {
+    height: 43px;
+    width: 43px;
+    position: absolute;
+    left: 50%;
+    margin-left: -21.5px;
+    bottom: 28px;
+    cursor: pointer
+}
+
+.next_part1 span {
+    float: left;
+    height: 43px;
+    width: 43px;
+    background: url("../images/top-ico1.png") no-repeat center center
+}
+
+.next_part1:hover span {
+    background: url("../images/top-ico1-hover.png") no-repeat center center;
+    transition: all .6s ease 0s
+}
+
+/*part2*/
+.part2_wrap {
+    width: 100%;
+    height: 611px;
+    padding-top: 45px;
+    overflow: hidden;
+    position: relative;
+    background: url("../images/what-bj.png") no-repeat center center
+}
+
+.part2_bottom_border {
+    height: 101px;
+    background: url("../images/border-bottom.png") no-repeat center bottom
+}
+
+.part2_top {
+    margin: 0 auto
+}
+
+.part2_title {
+    margin: 50px auto 114px;
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    color: #898989;
+    text-align: center
+}
+
+.many_icon {
+    height: 198px;
+    margin: 0 auto 0;
+    width: 1000px
+}
+
+.many_icon1, .many_icon2, .many_icon3 {
+    margin-right: 90px
+}
+
+.many_icons1, .many_icons2, .many_icons3, .many_icons4 {
+    width: 122px;
+    height: 122px;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+.many_icons1 {
+    background: url("../images/design-ico.png") no-repeat center top
+}
+
+.many_icons2 {
+    background: url("../images/brand-ico.png") no-repeat center top
+}
+
+.many_icons3 {
+    background: url("../images/move-ico.png") no-repeat center top
+}
+
+.many_icons4 {
+    background: url("../images/ui-ico.png") no-repeat center top
+}
+
+.part2_more {
+    width: 165px;
+    height: 43px;
+    margin-top: 32px;
+    overflow: hidden
+}
+
+.many_icon span {
+    display: block;
+    text-align: center
+}
+
+.part2_more_bg {
+    background: url(../images/btn-ico.png) no-repeat center center;
+    width: 162px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #ffffff;
+    margin: 3px auto 0;
+    cursor: pointer
+}
+
+.part2_mi1 {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: #545454
+}
+
+.part2_mi2 {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    color: #d5d5d5
+}
+
+.many_icon1:hover .many_icons1 {
+    background-image: url("../images/design-ico-hover.png")
+}
+
+.many_icon2:hover .many_icons2 {
+    background-image: url("../images/brand-ico-hover.png")
+}
+
+.many_icon3:hover .many_icons3 {
+    background-image: url("../images/move-ico-hover.png")
+}
+
+.many_icon4:hover .many_icons4 {
+    background-image: url("../images/ui-ico-hover(1).png")
+}
+
+.part2_more_in1, .part2_more_in2, .part2_more_in3, .part2_more_in4 {
+    transition: all .4s ease 0s
+}
+
+.many_icon1:hover .part2_more_in1,
+.many_icon2:hover .part2_more_in2,
+.many_icon3:hover .part2_more_in3,
+.many_icon4:hover .part2_more_in4 {
+    margin-top: -42px;
+    transition: all .4s ease 0s
+}
+
+.next_part2 {
+    height: 43px;
+    width: 43px;
+    position: absolute;
+    left: 50%;
+    margin-left: -21.5px;
+    bottom: 28px;
+    cursor: pointer
+}
+
+.next_part2 span {
+    float: left;
+    height: 43px;
+    width: 43px;
+    background: url("../images/top-ico2.png") no-repeat center center
+}
+
+.next_part2:hover span {
+    background: url("../images/top-ico2-hover.png") no-repeat center center;
+    transition: all .6s ease 0s
+}
+
+/*part3*/
+.part3_wrap {
+    width: 100%;
+    height: 807px;
+    padding-top: 45px;
+    overflow: hidden;
+    position: relative;
+    background: url("../images/work-bj.png") no-repeat center center
+}
+
+.part3_bottom_border {
+    height: 101px;
+    background: url("../images/border-bottom2.png") no-repeat center bottom;
+    margin-bottom: 48px
+}
+
+.part3_box {
+    height: 510px;
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden
+}
+
+.part3_border {
+    height: 510px;
+    width: 3000px;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.p3_box_part1, .p3_box_part2 {
+    height: 510px;
+    width: 1180px;
+    float: left;
+    margin-left: 40px;
+}
+
+.p3_p1_in {
+    width: 205px;
+    height: 205px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin: 0 57px 62px 25px
+}
+
+.p3_p1_in_in {
+    width: 205px;
+    height: 205px;
+    margin-left: -102.5px;
+    margin-top: -102.5px;
+    border-radius: 50%;
+    background-color: #00addc;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: scale(0,0);
+    transition: all .5s ease 0s;
+}
+
+.h1_img {
+    opacity: 0;
+    position: absolute;
+    left: 45px;
+    top: 65px
+}
+
+.p3_p1_in h1 {
+    line-height: 205px;
+    text-align: center;
+    height: 205px;
+    width: 205px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    font-family: "Microsoft YaHei";
+    opacity: 0;
+    font-size: 30px
+}
+
+.p3_p1_in:hover .p3_p1_in_in {
+    transform: scale(1,1);
+    transition: all .5s ease 0s;
+}
+
+.p3_p1_in:hover h1, .p3_p1_in:hover .h1_img {
+    animation: toShow .5s ease 0s both
+}
+
+.part3_change {
+    position: absolute;
+    left: 50%;
+    bottom: 110px;
+    margin-left: -90px;
+}
+
+.part3_change span {
+    font-family: "Microsoft YaHei";
+    font-size: 22px;
+    color: #565656;
+    width: 85px;
+    padding-top: 11px;
+    border-top: 3px solid #565656;
+    text-align: center;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.part3_change .p3_now {
+    border-top: 3px solid #2ca6d2 !important;
+    color: #2ca6d2 !important;
+}
+
+.next_part3 {
+    height: 43px;
+    width: 43px;
+    position: absolute;
+    left: 50%;
+    margin-left: -21.5px;
+    bottom: 28px;
+    cursor: pointer
+}
+
+.next_part3 span {
+    float: left;
+    height: 43px;
+    width: 43px;
+    background: url("../images/top-ico1.png") no-repeat center center
+}
+
+.next_part3:hover span {
+    background: url("../images/top-ico1-hover.png") no-repeat center center;
+    transition: all .6s ease 0s
+}
+
+/*part4*/
+.part4_wrap {
+    width: 100%;
+    height: 717px;
+    padding-top: 45px;
+    overflow: hidden;
+    position: relative;
+    background: url("../images/new-bj.png") no-repeat center center;
+}
+
+.part4_bottom_border {
+    height: 101px;
+    margin-bottom: 43px;
+    background: url("../images/border-bottom.png") no-repeat center bottom
+}
+
+.part4_top {
+    margin: 0 auto;
+}
+
+.part4_title {
+    margin: 50px auto 114px;
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    color: #898989;
+    text-align: center
+}
+
+.part4_main {
+    width: 100%;
+    padding-bottom: 62px;
+    position: relative
+}
+
+.part4_main:before {
+    position: absolute;
+    width: 2px;
+    background: #d8d8d8;
+    top: 0;
+    left: 50%;
+    margin-left: -2px;
+    content: '';
+    height: 100%;
+}
+
+.part4_main_in {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 12px
+}
+
+.part4_main_in .p4_in_left {
+    width: 560px;
+    padding-right: 40px;
+    position: relative;
+    text-align: right;
+    left: 0
+}
+
+.part4_main_in .p4_in_left img {
+    position: absolute;
+    right: -25px;
+    cursor: pointer;
+    z-index: 999
+}
+
+.part4_main_in1 .p4_in_right img {
+    position: absolute;
+    left: -27px;
+    cursor: pointer;
+    z-index: 999
+}
+
+.part4_main_in .p4_in_right {
+    width: 560px;
+    padding-left: 40px;
+    position: relative;
+    left: 0
+}
+
+.part4_main_in label a {
+    margin-bottom: 10px;
+    font-weight: 100;
+    display: block;
+    color: black;
+    transition: all .8s ease 0s
+}
+
+.part4_main_in span a {
+    font-size: 14px;
+    color: #bfbfc0;
+    line-height: 22px;
+    transition: all .8s ease 0s
+}
+
+.part4_main_in label a:hover, .part4_main_in span a:hover {
+    color: #ff5a00;
+    text-decoration: underline;
+    transition: all .8s ease 0s
+}
+
+.checkMore {
+    width: 136px;
+    height: 38px;
+    display: block;
+    position: absolute;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 19px;
+    background: #C6C6C6;
+    color: white;
+    font-family: "Microsoft YaHei";
+    left: 50%;
+    margin-left: -68px;
+    bottom: 0;
+    transition: all .8s ease 0s
+}
+
+.checkMore:hover {
+    background: #8a8a8a;
+    color: #ff5a00;
+    text-decoration: underline;
+    transition: all .8s ease 0s
+}
+
+.next_part4 {
+    height: 43px;
+    width: 43px;
+    position: absolute;
+    left: 50%;
+    margin-left: -21.5px;
+    bottom: 20px;
+    cursor: pointer
+}
+
+.next_part4 span {
+    float: left;
+    height: 43px;
+    width: 43px;
+    background: url("../images/top-ico2.png") no-repeat center center
+}
+
+.next_part4:hover span {
+    background: url("../images/top-ico2-hover.png") no-repeat center center;
+    transition: all .6s ease 0s
+}
+
+.part4_main a {
+    cursor: pointer
+}
+
+/*part5*/
+.part5_wrap {
+    width: 100%;
+    height: 594px;
+    padding-top: 45px;
+    overflow: hidden;
+    position: relative;
+    /*background: url("../images/new-bj.png") no-repeat center center;*/
+}
+
+.part5_bottom_border {
+    height: 101px;
+    background: url("../images/border-bottom2.png") no-repeat center bottom
+}
+
+.part5_top {
+    margin: 0 auto;
+}
+
+.iw_poi_title {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap
+}
+
+.iw_poi_content {
+    font: 12px arial, sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word
+}
+
+/*left nav*/
+#nav {
+    width: 80px;
+    height: 167px;
+    background: url("../images/left-nav-bj1.png") no-repeat center center;
+    position: fixed;
+    left: 20px;
+    top: 250px;
+    padding-top: 35px;
+    display: none
+}
+
+#nav li {
+    margin-top: 11px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei"
+}
+
+#nav li a {
+    color: #c7c7c7
+}
+
+#nav li a span {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: -1px;
+    margin-left: 11px
+}
+
+#nav li a:hover {
+    color: #ff5a00;
+    text-decoration: underline
+}
+
+#nav li a:hover span {
+    background: url("../images/cur-ico.png") no-repeat center center
+}
+
+.nav_ico {
+    background: url("../images/cur-ico.png") no-repeat center center !important;
+}

@@ -1,0 +1,22 @@
+#wrap{background: url(../images/clients-main.jpg) no-repeat center center;width: 100%;height: 1563px;}
+
+.part1_wrap{background: url(../images/expertise-bj4.png) no-repeat center center;width: 100%;
+    height: 642px;padding-top: 106px;text-align: center}
+.part1_wrap span{font-size: 24px;color: #ababab;}
+.part1_img {width: 100%;padding-top: 74px;}
+.part1_img img{margin: 0 auto}
+
+
+.part2_wrap{width: 100%;height: 724px;padding-top: 66px;}
+.part2_bottom_border {height: 101px;background: url("../images/border-bottom.png") no-repeat center bottom;}
+.part2_top {margin: 0 auto 20px;}
+.part2_text{margin: 0 auto;position: relative;width: 1122px;height: 252px;padding-top: 98px}
+.part2_text ul{height: 252px;position: relative;background: #323232;border: 1px solid #404040;border-radius: 16px;}
+.part2_text ul li{height: 172px;position: absolute;width: 1042px;padding: 40px;display: none;color: #d8d8d8}
+.part2_ico{margin: 0 auto;width: 1122px;height: 85px;padding-top: 60px;}
+.part2_ico ul{width: 1122px;height: 85px}
+.part2_ico ul li{width: 85px;height: 85px;float: left;margin-right: 17px;border-radius: 50%;cursor: pointer;
+position: relative}
+.part2_ico ul li img{position: absolute;left: 20px;top:-59px;display: none}
+
+

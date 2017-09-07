@@ -1,0 +1,108 @@
+#wrap{width: 100%}
+/*part1 start*/
+.part1_wrap{width: 100%;height: 752px;position: relative;
+    background: #282828 url("../images/muyu-top-bj.png") no-repeat center center;}
+.part1_img{margin: 0 auto;width: 681px;}
+.part1_text{margin: 0 auto;width: 936px;text-align: center;color: #696969}
+.part1_text strong{color: #292929}
+.next_part1 {height: 43px;width: 43px;position: absolute;left: 50%;margin-left: -21.5px;bottom: 28px;
+    cursor: pointer}
+.next_part1 span {float: left;height: 43px;width: 43px;
+    background: url("../images/top-ico2.png") no-repeat center center}
+.next_part1:hover span {background: url("../images/top-ico2-hover.png") no-repeat center center;
+    transition: all .6s ease 0s}
+/*part1 end*/
+
+/*part2 start*/
+.part2_wrap{width: 100%;height: 663px;position: relative;
+    background: #F8F8F8 url("../images/page-about-bj.png") no-repeat center center;}
+.part2_bottom_border {height: 101px;padding-bottom: 48px;
+    background: url("../images/border-bottom2.png") no-repeat center bottom;}
+.part2_top {margin: 0 auto 20px;padding-top: 46px}
+.part2_bottom_border p{text-align: center;color: #808080}
+.part2_mid{width: 560px;height: 187px;margin: 0 auto;top: 100px;position: relative;overflow: hidden}
+.service{width: 187px;height: 187px;position: absolute;left: 0;top: 0;cursor: pointer;
+    overflow: hidden;z-index: 999}
+.faith{width: 187px;height: 187px;position: absolute;right: 0;top: 0;cursor: pointer;
+    overflow: hidden;z-index: 999}
+.part2_jia{position: absolute;left: 50%;top:50%;margin: -18px 0 0 -18px;z-index: 1}
+.service p,.faith p{color: #383838;position: relative}
+.service_text{width: 370px;height: 110px;background: white;position: absolute;left: -370px;top: 0;
+padding: 37px 0 40px 187px;border-radius: 94px;z-index: 995;}
+.faith_text{width: 370px;height: 110px;background: white;position: absolute;right: -390px;top: 0;
+padding: 45px 147px 32px 60px;border-radius: 94px;z-index: 995;}
+.service_text p,.faith_text p{font-size: 14px;line-height: 24px}
+.next_part2 {height: 43px;width: 43px;position: absolute;left: 50%;margin-left: -21.5px;bottom: 28px;
+    cursor: pointer}
+.next_part2 span {float: left;height: 43px;width: 43px;
+    background: url("../images/top-ico1.png") no-repeat center center}
+.next_part2:hover span {background: url("../images/top-ico1-hover.png") no-repeat center center;
+    transition: all .6s ease 0s  }
+/*part2 end*/
+
+/*part3 start*/
+.part3_wrap{width: 100%;height: 850px;position: relative;
+    background: url("../images/system-bj.png") no-repeat center center;}
+.part3_bottom_border {height: 101px;padding-bottom: 48px;
+    background: url("../images/border-bottom.png") no-repeat center bottom;}
+.part3_top {margin: 0 auto 20px;padding-top: 46px}
+.part3_bottom_border p{text-align: center;color: #808080}
+.p3_mid{width: 500px;height: 600px;margin: 0 auto;position: relative}
+.part3_mid{width: 481px;height: 600px;background: url("../images/y-bj.png") no-repeat center bottom;
+position: absolute;left: 37px;top:4px}
+.p3_mid_in{width: 481px;height: 175px;background: url("../images/sys-nav.png") no-repeat center bottom;
+position: absolute;left: -16px;top: 50px}
+.p3_mid_in_nav{position: absolute;cursor: pointer;z-index: 999}
+.p3_mid_in_nav img{display: none;cursor: pointer}
+.p3_mid_content img{position: absolute;display: none}
+.next_part3 {height: 43px;width: 43px;position: absolute;left: 50%;margin-left: -21.5px;bottom: 28px;
+    cursor: pointer}
+.next_part3 span {float: left;height: 43px;width: 43px;
+    background: url("../images/top-ico2.png") no-repeat center center}
+.next_part3:hover span {background: url("../images/top-ico2-hover.png") no-repeat center center;
+    transition: all .6s ease 0s  }
+/*part3 end*/
+
+/*part4 start*/
+.part4_wrap{background: #282828;width: 100%;position: relative;}
+.part4_foot{background: #F3F3F3 url("../images/muyu-top-bj2.png") no-repeat center center;
+    width: 100%;height: 100px;position: relative}
+.part4_bottom_border {height: 101px;padding-bottom: 48px;
+    background: url("../images/border-bottom2.png") no-repeat center bottom;}
+.part4_top {margin: 0 auto 20px;padding-top: 46px}
+.part4_bottom_border p{text-align: center;color: #808080}
+.p4_mid{text-align: center;padding-top: 25px}
+.p4_mid_in{color: #999;background: #171717;display: none}
+.p4_mid_in label{font-family: "微软雅黑";font-size: 34px;color: #ffffff;font-weight: bold;
+    display: block;padding: 53px 0 15px;}
+.p4_mid_in span{color: #bbbbbb;font-size: 16px;font-family: "微软雅黑";display: block;padding-bottom: 8px}
+.p4_mid h3{height: 80px;line-height: 80px;text-align: center;font-weight: 300;border-bottom: 1px solid #333;
+    background: #282828;cursor: pointer;font-size: 22px;font-family: "微软雅黑";display: block;color: #dfdfdf;}
+.p4_mid h3:hover{background: #232323;}
+.p4_mid h3 span{background: url("../images/j-ico.png") no-repeat center center;margin-left: 10px;
+    width: 26px;height: 26px;display: inline-block;vertical-align: -4px}
+/*part4 end*/
+
+
+
+
+/*part5 start*/
+.part5_wrap{width: 100%;position: relative;background: #F3F3F3;}
+.part5_in{padding-top:55px; height:213px;text-align: center}
+.part5_in span{display: block;padding-bottom: 15px;font-size: 30px;color: #262626;}
+.part5_in p{color: #bfbfbf;font-size: 16px;margin-bottom: 35px;}
+.part5_in a{background: #00a7d5;width: 116px;height: 37px;line-height: 37px;font-size: 14px;
+    color: #ffffff;display: inline-block;text-align: center;border-radius: 18px}
+.part5_in a:hover{background: #00c2f5;transition: all .6s ease 0s;}
+/*part5 end*/
+
+/*left nav*/
+#nav{width: 80px;height: 167px;background: url("../images/left-nav-bj1.png") no-repeat center center;
+    position: fixed;left: 20px;top: 250px;padding-top: 45px;display: none}
+#nav li{font-size: 12px;font-family: "Microsoft YaHei";height: 27px;line-height: 27px}
+#nav li a{color: #c7c7c7}
+#nav li a span{height: 15px;width: 15px;border-radius: 50%;display: inline-block;
+    margin-left: 9px;vertical-align: -4px}
+#nav li a:hover{color: #ff5a00;text-decoration: underline}
+#nav li a:hover span{background: url("../images/cur-ico.png") no-repeat center center}
+.nav_ico{background: url("../images/cur-ico.png") no-repeat center center !important;}

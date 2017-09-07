@@ -1,0 +1,18 @@
+#wrap{width: 100%;padding-top: 147px;text-align: center}
+
+.p1_title h1{font-size: 58px;color: #ffffff;font-weight: 300;padding-bottom: 26px;}
+.p1_title span{font-size: 20px;color: #828282;}
+.p1_title i{margin: 0 auto 70px;background: url("../images/border-bottom2.png") no-repeat center bottom;
+    padding-top: 25px;width: 100%;display: block;}
+.part2_wrap{width: 1090px;margin: 0 auto;height: 2000px}
+.p2_nav{text-align: center;margin: 0 auto;width: 650px;padding-bottom: 84px;}
+.p2_nav ol li{float: left;font-size: 18px;color: #4a4a4a;font-weight: 700;margin: 0 20px;cursor: pointer;
+padding-bottom: 5px}
+.p2_logo{width: 100%;}
+.p2_logo li{width: 355px;float: left;height: 211px;overflow: hidden;margin: 3px;}
+.muban_box{width: 355px;height: 211px;position: relative;transform-style: preserve-3d;transition: all 1s ease 0s;}
+.muban_box div{width: 355px;height: 211px;position: absolute;transform-style: preserve-3d;}
+.muban_now{background: #4a4a4a;transform: rotateY(0deg);}
+.muban_hover{transform: rotateY(180deg);}
+.muban_hover img{width: 355px;height: 211px}
+.p2_logo li:hover .muban_box{transform:rotateY(180deg);transition: all 1s ease 0s;}
